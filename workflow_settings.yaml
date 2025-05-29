@@ -1,9 +1,9 @@
-defaultAssertionDataset: superform_assertion
-defaultLocation: EU
-defaultProject: dataform-package
+defaultAssertionDataset: mh4l_ga4_assertion
+defaultLocation: australia-southeast1
+defaultProject: my-health-429206
 vars:
-  GA4_DATASET: analytics_31337
-  LOCAL_TIMEZONE: Europe/Paris
-  QUALITY_DATASET: superform_quality_31337
-  TRANSFORMATIONS_DATASET: superform_transformations_31337
-  OUTPUTS_DATASET: superform_outputs_31337
+  GA4_DATASET: analytics_362574079
+  LOCAL_TIMEZONE: Australia/Sydney
+  QUALITY_DATASET: mh4l_ga4_quality
+  TRANSFORMATIONS_DATASET: mh4l_ga4_transformations
+  OUTPUTS_DATASET: mh4l_ga4_outputs
