@@ -56,7 +56,13 @@ const customConfig = {
   //    { name: "event_value", type: "decimal" },
   //    { name: "event_value", type: "string", renameTo: "event_value_string" }
   // ],
-  CUSTOM_EVENT_PARAMS_ARRAY: [],
+  CUSTOM_EVENT_PARAMS_ARRAY: [
+    { name: "eligibility", type: "string" },
+    { name: "resultCategory", type: "string" },
+    { name: "riskLevel", type: "string" },
+    { name: "event_category", type: "string" },
+    { name: "event_label", type: "string" }
+  ],
 
   // user properties
   // example:
